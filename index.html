@@ -20,15 +20,44 @@
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <header>
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/logo.png" class="img-fluid" />
-                </div>
-                <div class="col">
-                    <h1>Kingsbury's Orchard</h1>
-                    <h2>Kingsbury's</h2>
+                <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#bannerCarousel" data-slide-to="0"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="1"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="2"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="3"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="4"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="5"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="6"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="img/apple-in-rain.jpg" alt="Apple in Rain"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/orchard.jpg" alt="Orchard"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/jam.jpg" alt="Jam"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/cherries-on-tree.jpg" alt="Cherries on Tree"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/fallen-pears.jpg" alt="Fallen Pears"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/picked-apples-variety.jpg" alt="Variety of Picked Apples"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="img/picked-peaches.jpg" alt="Picked Peaches"/>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -37,7 +66,23 @@
     <div class="container">
         <div class="row row-content">
             <div class="col">
-                Body Content Here
+                Story Content Here
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                Content Summary A
+            </div>
+            <div class="col">
+                Content Summary B
+            </div>
+            <div class="col">
+                Content Summary C
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                Foreign Greetings
             </div>
         </div>
     </div>

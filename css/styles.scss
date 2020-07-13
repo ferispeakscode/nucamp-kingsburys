@@ -36,9 +36,12 @@ header {
     font-family: $body-font;
     padding: 20px, 0px;
 }
-.jumbotron {
-    margin: 0;
-    padding: 30px;
+
+.carousel-item {
+    img {
+        height: 350px;
+        object-fit: cover;
+    }
 }
 
 .row-content {
@@ -46,4 +49,3 @@ header {
     border-bottom: 1px ridge;
     min-height: 100px;
 }
-
