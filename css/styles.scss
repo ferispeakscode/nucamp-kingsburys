@@ -6,8 +6,8 @@ $color-dark: #60106B;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 
-$body-font: "", sans-serif;
-$header-font: "", cursive;
+$body-font: "Lato", sans-serif;
+$header-font: "Fondamento", cursive;
 
 body {
     font-family: $body-font;
@@ -28,6 +28,7 @@ header {
 }
 
 .site-footer {
+    font-family: $body-font;
     padding: 20px, 0px;
 }
 .jumbotron {

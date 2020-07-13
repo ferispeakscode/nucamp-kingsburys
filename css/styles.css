@@ -1,0 +1,24 @@
+body {
+  font-family: "Lato", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Fondamento", cursive; }
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  font-family: "Lato", sans-serif;
+  padding: 20px, 0px; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 100px; }
