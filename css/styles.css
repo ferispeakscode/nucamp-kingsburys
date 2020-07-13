@@ -1,10 +1,11 @@
 body {
   font-family: "Lato", sans-serif; }
 
-h1, h2, h3 {
+h1, h3 {
   font-family: "Fondamento", cursive; }
 
 h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #3046C5; }
 
 header h2 {
@@ -13,6 +14,8 @@ header h2 {
 .site-footer {
   font-family: "Lato", sans-serif;
   padding: 20px, 0px; }
+  .site-footer h5 {
+    font-family: "Alegreya Sans SC", sans-serif; }
 
 .jumbotron {
   margin: 0;

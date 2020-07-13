@@ -8,16 +8,18 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 $body-font: "Lato", sans-serif;
 $header-font: "Fondamento", cursive;
+$secondary-font: "Alegreya Sans SC", sans-serif;
 
 body {
     font-family: $body-font;
 }
 
-h1, h2, h3 {
+h1, h3 {
     font-family: $header-font;
 }
 
 h2 {
+    font-family: $secondary-font;
     color: $color-primary;
 }
 
@@ -28,6 +30,9 @@ header {
 }
 
 .site-footer {
+    h5 {
+        font-family: $secondary-font;
+    }
     font-family: $body-font;
     padding: 20px, 0px;
 }
