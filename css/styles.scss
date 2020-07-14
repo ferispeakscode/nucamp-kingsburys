@@ -5,6 +5,7 @@ $color-secondary-orange: #EE9754;
 $color-yellow: #F3Bf59;
 $color-green: olive;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-white: #fff;
 
 
 $body-font: "Lato", sans-serif;
@@ -42,8 +43,18 @@ header {
     h5 {
         font-family: $secondary-font;
     }
+    .link-colors a {
+        color: $color-yellow;
+        a:hover {
+            color: $color-green;
+        }
+    }
     font-family: $body-font;
     padding: 20px, 0px;
+    background-color: $color-primary-red;
+    color: $color-white;
+
+
 }
 
 .carousel-item {

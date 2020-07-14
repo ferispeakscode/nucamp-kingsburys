@@ -19,9 +19,15 @@ header h2 {
 
 .site-footer {
   font-family: "Lato", sans-serif;
-  padding: 20px, 0px; }
+  padding: 20px, 0px;
+  background-color: #B0163C;
+  color: #fff; }
   .site-footer h5 {
     font-family: "Alegreya Sans SC", sans-serif; }
+  .site-footer .link-colors a {
+    color: #F3Bf59; }
+    .site-footer .link-colors a a:hover {
+      color: olive; }
 
 .carousel-item img {
   height: 350px;
