@@ -1,8 +1,9 @@
-$color-primary: #3046C5;
-$color-secondary: #5637DD;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
-$color-dark: #60106B;
+$color-primary-red: #B0163C;
+$color-secondary-red: #E74D4D;
+$color-primary-orange: #EA7450;
+$color-secondary-orange: #EE9754;
+$color-yellow: #F3Bf59;
+$color-green: olive;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 
@@ -16,16 +17,24 @@ body {
 
 h1, h3 {
     font-family: $header-font;
+    color: $color-primary-red;
 }
 
 h2 {
     font-family: $secondary-font;
-    color: $color-primary;
+    color: $color-primary-orange;
 }
 
 header {
     h2 {
-        color: $color-pale;
+        color: $color-secondary-orange;
+    }
+}
+
+.navbar-dark{
+    background-color: $color-primary-red;
+    .nav-item {
+        padding: 0px 4px;
     }
 }
 

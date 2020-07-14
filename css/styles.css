@@ -2,14 +2,20 @@ body {
   font-family: "Lato", sans-serif; }
 
 h1, h3 {
-  font-family: "Fondamento", cursive; }
+  font-family: "Fondamento", cursive;
+  color: #B0163C; }
 
 h2 {
   font-family: "Alegreya Sans SC", sans-serif;
-  color: #3046C5; }
+  color: #EA7450; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: #EE9754; }
+
+.navbar-dark {
+  background-color: #B0163C; }
+  .navbar-dark .nav-item {
+    padding: 0px 4px; }
 
 .site-footer {
   font-family: "Lato", sans-serif;
