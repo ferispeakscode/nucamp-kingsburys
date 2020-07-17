@@ -35,3 +35,9 @@ header h2 {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 100px; }
+
+.row-pad-top {
+  padding-top: 50px; }
+
+.row-pad-bottom {
+  padding-bottom: 50px; }
