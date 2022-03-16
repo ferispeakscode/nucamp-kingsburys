@@ -53,6 +53,7 @@ header {
 }
 
 .carousel-item {
+    overflow: hidden;
     img {
         height: 350px;
         object-fit: cover;
